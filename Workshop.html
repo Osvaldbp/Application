@@ -4,20 +4,54 @@
     <head>
         <meta charset="UTF-8">
         <title>Marketplace App</title>
+        <link rel="stylesheet" href="WorkshopStyle.css">
     </head>
     <body>
         <header>
-            <h1>Application</h1>
-            <p>This is my application that does this</p>
+            <h1>Marketplace App</h1>
+            <p>This is our selection</p>
         </header>
+        
+        <h2>Featured products</h2>
 
         <main>
             <section id="products">
-                <div>
-                    Product 1
-                    Product 2
+                <div id="product1">
+                    <h2>product 1</h2>
+                    <img src="Images/Place_holder.jpeg" alt="placeholder image">
+                    <p>This product does this</p>
+                    <ul>
+                        <li>Price 10$</li>
+                        <li>3.5/5 stars</li>
+                        <li>In stock</li>
+                        <li>Category: Electronic</li>
+                    </ul>
+                    <div id="Email-field">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="Email" id="email" name="email" required><br>
+                        <button type="submit">View details</button>
+                    </div>
+                </div>
+                    <div id="product2">
+                    <h2>Product 2</h2>
+                    <img src="Images/Place_holder.jpeg" alt="placeholder image">
+                    <p>This product does this</p>
+                    <ul>
+                        <li>Price 35$</li>
+                        <li>2.5/5 stars</li>
+                        <li>not in stock</li>
+                        <li>Category: Car</li>
+                    </ul>
+                        <div id="Email-field">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="Email" id="email" name="email" required><br>
+                        <button type="submit">View details</button>
+                    </div>
                 </div>
             </section>
         </main>
+        <footer>
+            <p> &copy; LEXICON Växjö</p>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d0d0;
+    color:#333;
+    margin: 0;
+}
+header {
+    background-color:red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+section {
+    margin:20px;
+    padding:20px;
+    color: black;
+    border-radius: 5px;
+}
+h2 {
+    color: rgb(95, 156, 95);
+    text-align: center;
+}
+#product1, #product2 {
+    margin-left:25%;
+    margin-right:25%;
+    padding:10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top:15px;
+}
+#Email-field {
+    margin-bottom: 10px;
+}
+/*The margin is to space it from the email field*/
+button {
+    margin-top: 5px;
+    background-color:#4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer {
+    margin-top: 20px;
+    padding:20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: black 0px 0px 10px;
+}
