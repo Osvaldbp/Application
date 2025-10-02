@@ -17,8 +17,11 @@ section {
     border-radius: 5px;
 }
 h2 {
-    color: rgb(95, 156, 95);
-    text-align: center;
+    color: black;
+}
+h3 {
+    text-aling: center;
+    color: green;
 }
 #product1, #product2 {
     margin-left: auto;
